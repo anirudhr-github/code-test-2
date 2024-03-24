@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sample Website</title>
-  <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>FirstName LastName</h1>
-    <p>I'm learning to code on Codecademy! My goals include:</p>
-    <ul>
-      <li>Learn to code</li>
-      <li>Start a company</li>
-      <li>Help the world</li>
-    </ul>
-    <p>This is one of my favorite websites: <a href="https://www.google.com/" target="_blank">Google</a></p>
-
+  <div class="calculator">
+    <div class="display">0</div>
+    <div class="buttons">
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn operator">÷</button>
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn operator">x</button>
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn operator">-</button>
+      <button class="btn">0</button>
+      <button class="btn">.</button>
+      <button class="btn operator">+</button>
+      <button class="btn equal">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
